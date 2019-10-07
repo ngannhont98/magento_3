@@ -1,0 +1,14 @@
+<?php
+$class = $block->hasAddClass()? $block->getAddClass():'';
+$class01 = $block->hasData('addClass01')? $block->getData('addClass01'):'';
+?>
+<div class="<?php echo $class; echo $class01; ?>">Block a</div>
+<div class="<?php echo $class; echo $class01; ?>">Block b</div>
+<div class="<?php echo $class; echo $class01; ?>">Block c</div>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "sample": {}
+    }
+}
+</script>

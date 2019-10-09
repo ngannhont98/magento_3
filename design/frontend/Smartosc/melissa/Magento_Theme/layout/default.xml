@@ -7,5 +7,14 @@
                 <argument name="logo_img_height" xsi:type="number">100</argument>
             </arguments>
         </referenceBlock>
+        <move element="navigation.sections" destination="header-wrapper"/>
+        <referenceBlock name="header" remove="true"/>
+<!--        <referenceContainer name="header.panel">-->
+<!--            <block class="Magento\Cms\Block\Block" name="header-top-title" after="top.search">-->
+<!--                <arguments>-->
+<!--                    <argument name="header-top-title" xsi:type="string">header-top-title</argument>-->
+<!--                </arguments>-->
+<!--            </block>-->
+<!--        </referenceContainer>-->
     </body>
 </page>

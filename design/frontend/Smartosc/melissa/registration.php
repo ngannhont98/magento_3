@@ -6,4 +6,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Smartosc/melisa', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Smartosc/melissa', __DIR__);

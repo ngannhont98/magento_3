@@ -51,6 +51,7 @@
 .media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
     .navigation {
         padding: 0;
+        background: white;
 
         .parent {
             .level-top {
@@ -272,6 +273,7 @@
     }
 
     .lib-main-navigation();
+
 }
 
 //
@@ -288,6 +290,7 @@
         .lib-vendor-prefix-flex-basis(auto);
         margin-bottom: @indent__m;
     }
+
     .nav-sections-item-title {
         display: none;
     }
@@ -308,12 +311,10 @@
 
     .lib-main-navigation-desktop();
 
-
     .navigation {
-        background: white;
-        border: 2px red;
+      background: white;
+      border: 2px red;
     }
-
 
     .panel.header {
         .links,
